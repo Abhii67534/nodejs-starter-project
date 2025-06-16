@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Codegen (disposable)
+generated/
+
+# Logs
+*.log
+logs/
+error.log
+combined.log
+
+# Environment
+.env
+
+# IDE/editor settings (optional but good)
+.vscode/
+.DS_Store
+
+# OS junk
+Thumbs.db
+
+# Optional: Prevent backing up YAML/API artifacts
+*.bak

@@ -1,0 +1,29 @@
+{
+  "name": "api-openapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate:server": "openapi-generator-cli generate -i ./docs/api.yaml -g nodejs-express-server -o ./generated"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.20.2"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "camelcase": "^8.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-openapi-validator": "^5.5.7",
+    "js-yaml": "^4.1.0",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.17.0",
+    "yamljs": "^0.3.0"
+  }
+}
